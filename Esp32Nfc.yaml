@@ -1,5 +1,6 @@
 ####################################################################################################################
-  # Insert your SSID and Your PWD after inital setup
+# basado en github://adonno/tagreader/tagreader.yaml
+# Insert your SSID and Your PWD after inital setup
 # networks:
 #    - ssid: 'REPLACEME'          # Enter your WiFi SSID here. Example: `ssid: 'your_network_name'`
 #      password: 'REPLACEME'      # Enter your wifi password here. Example: `password: 'abcde123456'`
@@ -14,14 +15,14 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://adonno/tagreader/tagreader.yaml
+  package_import_url: github://responde/Esp32NfcReader/Esp32Nfc.yaml
 
 improv_serial:
 
 
 substitutions:
-  name: tagreader
-  friendly_name: TagReader
+  name: esp32nfcreader
+  friendly_name: Esp32NfcReader
 
 esphome:
   name:  $name
@@ -35,8 +36,8 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: adonno.tag_reader
-    version: "1.4"
+    name: Esp32Nfc.tag_reader
+    version: "0.1"
 # If buzzer is enabled, notify on api connection success
   on_boot:
     priority: -10
