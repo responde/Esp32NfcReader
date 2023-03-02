@@ -149,7 +149,7 @@ button:
 # Enable logging
 logger:
   # level: VERY_VERBOSE
-  level: VERBOSE
+  level: DEBUG
 
 # Enable Home Assistant API
 api:
