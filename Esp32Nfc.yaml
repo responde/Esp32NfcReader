@@ -37,7 +37,7 @@ esphome:
   # configuration and updates.
   project:
     name: esp32nfcreader.tag_reader
-    version: "0.1"
+    version: "0.2"
 # If buzzer is enabled, notify on api connection success
   on_boot:
     priority: -10
