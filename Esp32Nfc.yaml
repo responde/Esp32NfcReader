@@ -36,7 +36,7 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: Esp32Nfc.tag_reader
+    name: esp32nfcreader.tag_reader
     version: "0.1"
 # If buzzer is enabled, notify on api connection success
   on_boot:
